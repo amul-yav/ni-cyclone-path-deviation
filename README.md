@@ -47,9 +47,7 @@ Notebooks auto-download full data on first run.
 code/
 
 ├── 01_load_filter.ipynb # IBTrACS parsing + NIO filtering (391 → 330 cyclones)
-
 ├── 02_deviation_metrics.ipynb # θ calculation (early vs late vectors)
-
 └── 03_sst_analysis.ipynb # Spearman ρ=0.15 + SST stratification
 
 
