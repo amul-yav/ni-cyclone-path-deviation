@@ -1,5 +1,4 @@
 
-text
 # North Indian Ocean Cyclone Path Deviation Analysis
 
 Statistical analysis of 330 cyclones (1982-2025).  
