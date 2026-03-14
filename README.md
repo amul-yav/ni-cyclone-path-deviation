@@ -10,7 +10,7 @@ Novel Contribution: Developed trajectory deviation metric measuring angle change
 
 θ = cos⁻¹((v₁·v₂)/(|v₁||v₂|))
 
-text
+
 
 Primary Result: Cyclones over warm SST (>+0.5°C) exhibit 47.2° mean deviation vs 39.9° over cool SST.
 
@@ -18,7 +18,7 @@ Primary Result: Cyclones over warm SST (>+0.5°C) exhibit 47.2° mean deviation 
 
 data/ → code/01_load_filter.ipynb → code/02_deviation_metrics.ipynb → code/03_sst_analysis.ipynb
 
-text
+
 
 ## Key Statistics (n=330 cyclones)
 | Metric | Value |
@@ -46,10 +46,12 @@ Notebooks auto-download full data on first run.
 ## Code Structure
 code/
 ├── 01_load_filter.ipynb # IBTrACS parsing + NIO filtering (391 → 330 cyclones)
+
 ├── 02_deviation_metrics.ipynb # θ calculation (early vs late vectors)
+
 └── 03_sst_analysis.ipynb # Spearman ρ=0.15 + SST stratification
 
-text
+
 
 ## Paper
 [NIO_CyclonePaths.pdf](NIO_CyclonePaths.pdf)  
